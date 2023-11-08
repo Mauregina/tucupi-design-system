@@ -1,0 +1,4 @@
+{
+  "extends": "@tucupi-ui/ts-config/react.json",
+  "include": ["src"]
+}
