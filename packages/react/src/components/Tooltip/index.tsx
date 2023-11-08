@@ -1,5 +1,5 @@
 import { ComponentProps, ReactNode, useState, useEffect } from 'react'
-import { Text } from '@tucupi-ui/react'
+import { Text } from '../Text'
 import {
   TooltipProvider,
   TooltipContainer,

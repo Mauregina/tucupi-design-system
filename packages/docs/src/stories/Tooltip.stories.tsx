@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Tooltip, TooltipProps } from '@tucupi-ui/react'
+import { Text, Tooltip, TooltipProps } from '@tucupi-ui/react'
 
 export default {
   title: 'OVERLAY/Tooltip',
@@ -7,7 +7,7 @@ export default {
   args: {
     children:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quod aspernatur fugit laudantium cupiditate sed quia culpa deleniti aliquid. Animi laborum eligendi cupiditate sit excepturi, natus est nihil commodi unde',
-    trigger: 21,
+    trigger: <Text>21</Text>,
     isControlOpen: false,
   },
   argTypes: {
