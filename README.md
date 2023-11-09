@@ -7,7 +7,7 @@
 
 [Click here to access the storybook](https://mauregina.github.io/tucupi-design-system)
 
-## Components
+## 📃 Components
 
 - [x] Text
 - [x] Heading
@@ -35,7 +35,7 @@
 - TurboRepo
 - Changesets
 
-## Installing
+## 💻 Installing
 ```sh
 npm i
 npm run dev
