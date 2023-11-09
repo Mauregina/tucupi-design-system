@@ -15,6 +15,7 @@ export const TooltipContent = styled(Tooltip.Content, {
   borderRadius: '$sm',
   padding: '$3 $4',
   color: '$gray100',
+  border: 'solid 1px $purple300',
   backgroundColor: '$purple900',
   maxWidth: '$64',
 })
