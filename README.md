@@ -22,8 +22,8 @@
 - [x] Tooltip
 
 ## ![image](https://github.com/Mauregina/tucupi-design-system/assets/8762879/9e07fd8a-a6f5-4f04-b21a-e3b6b9d9f379) Packages available on NPM
-- @tucupi-ui/tokens [tucupi-tokens](https://www.npmjs.com/package/@tucupi-ui/tokens)
-- @tucupi-ui/react [tucupi-tokens](https://www.npmjs.com/package/@tucupi-ui/react)
+- @tucupi-ui/tokens [click here](https://www.npmjs.com/package/@tucupi-ui/tokens)
+- @tucupi-ui/react [click here](https://www.npmjs.com/package/@tucupi-ui/react)
 
 ## 🚀 Tools used
 
