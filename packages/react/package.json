@@ -10,6 +10,9 @@
     "dev": "tsup src/index.tsx --format esm,cjs --dts --watch --external react",
     "lint": "eslint src/**/*.ts* --fix"
   },
+  "files": [
+    "dist"
+  ],
   "keywords": [],
   "author": "",
   "license": "MIT",
