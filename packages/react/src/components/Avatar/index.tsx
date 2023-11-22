@@ -2,11 +2,13 @@ import { User } from 'phosphor-react'
 import { ComponentProps } from 'react'
 import { AvatarContainer, AvatarImage, AvatarFallback } from './styles'
 
-export type AvatarProps = ComponentProps<typeof AvatarImage>
+export type AvatarProps = ComponentProps<typeof AvatarImage> & {
+  imageSize: 'sm' | 'md'
+}
 
-export function Avatar(props: AvatarProps) {
+export function Avatar({ imageSize = 'sm', ...props }: AvatarProps) {
   return (
-    <AvatarContainer>
+    <AvatarContainer imageSize={imageSize}>
       <AvatarImage {...props} />
 
       <AvatarFallback delayMs={600}>

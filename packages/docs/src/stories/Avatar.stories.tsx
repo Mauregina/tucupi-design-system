@@ -7,11 +7,18 @@ export default {
   args: {
     src: 'https://avatars.githubusercontent.com/u/8762879?v=4',
     alt: 'Maura Costa',
+    imageSize: 'sm',
   },
   argTypes: {
     src: {
       control: {
         type: 'text',
+      },
+    },
+    imageSize: {
+      options: ['sm', 'md'],
+      control: {
+        type: 'inline-radio',
       },
     },
   },
