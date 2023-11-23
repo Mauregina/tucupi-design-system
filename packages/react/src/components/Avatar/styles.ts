@@ -9,8 +9,8 @@ export const AvatarContainer = styled(Avatar.Root, {
   variants: {
     imageSize: {
       sm: {
-        width: '$10',
-        height: '$10',
+        width: '$7',
+        height: '$7',
       },
 
       md: {

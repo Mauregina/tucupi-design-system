@@ -1,5 +1,11 @@
 # @tucupi-ui/react
 
+## 4.0.0
+
+### Major Changes
+
+- Adjust size when small
+
 ## 3.0.0
 
 ### Major Changes
