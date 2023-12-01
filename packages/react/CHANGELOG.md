@@ -1,5 +1,11 @@
 # @tucupi-ui/react
 
+## 4.1.0
+
+### Minor Changes
+
+- Add size prop lg to avatar
+
 ## 4.0.0
 
 ### Major Changes

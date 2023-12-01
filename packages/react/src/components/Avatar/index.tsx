@@ -3,7 +3,7 @@ import { ComponentProps } from 'react'
 import { AvatarContainer, AvatarImage, AvatarFallback } from './styles'
 
 export type AvatarProps = ComponentProps<typeof AvatarImage> & {
-  imageSize: 'sm' | 'md'
+  imageSize: 'sm' | 'md' | 'lg'
 }
 
 export function Avatar({ imageSize = 'sm', ...props }: AvatarProps) {
